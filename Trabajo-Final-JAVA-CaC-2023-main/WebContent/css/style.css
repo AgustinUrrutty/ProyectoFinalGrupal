@@ -1,0 +1,196 @@
+.blancoGris
+{
+    background-color: rgb(64, 65, 65);
+    color: rgb(255, 255, 255);
+    /* margin-left: 0px; */
+}
+
+.cajaFlexible
+{
+   display: flex;
+   flex-direction: column;
+   /* flex-flow: wrap ; */
+   /* align-items: end; */
+   align-items:end;
+}
+
+.textoVerde
+{
+  /* text-decoration-color: green; */
+  color: rgb(157, 247, 84);
+}
+
+.textoGris
+{
+  color: rgb(120, 120, 120) !important;
+}
+
+.sinEspacioLateral
+{
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.estiloGrupoCartas
+{
+  margin: auto;
+  margin-bottom: 20px;
+  width: 80%;
+  justify-content: center;
+}
+
+.estiloCartas
+{
+  margin: 20px;
+  border-style: solid;
+  border-color: rgb(221, 221, 224);
+}
+
+.superIndice
+{
+  vertical-align: super;
+}
+
+.enLinea
+{
+  display: inline-block;
+  width: 45%;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+/* #relleno
+{
+  width: 8%;
+} */
+
+.entradaEnLinea
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.tamañoEntrada
+{
+  width: 47%;
+  /* text-align: right; */
+}
+
+.verdeClarito
+{
+  background-color: rgb(133, 206, 65);
+  border-color: rgb(133, 206, 65);
+  color: white;
+}
+
+.porcionOcupa100
+{
+  width: 100%;
+}
+
+.porcionOcupa55
+{
+  width: 55%;
+  margin: auto;
+  justify-content: center;
+}
+
+.sinMargenAbajo
+{
+  margin-bottom:0%;
+  margin-top:16px;
+}
+
+.fondoAzul
+{
+  background-color: rgb(8, 52, 63);
+  height: 75px;
+}
+
+.achicar80
+{
+  /* width: 80%; */
+  margin: auto;
+}
+
+.textoCarrousel
+{
+  position: absolute;
+  color: white;
+  width: 40%;
+  /* background-color: blueviolet; */
+  /* text-align: end; */
+  /* align-items: end; */
+  top: 400px;
+  left: 700px;
+}
+
+.carouselOscuro
+{
+  /* width: 100%; */
+  /* padding: 0%; */
+  /* margin: 0%; */
+  background-color: rgb(64, 65, 65);
+}
+
+.anchoMenuFoot
+{
+  width: 150px;
+}
+
+.CaractLogoCaC
+{
+  color: white;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  width: 30%;
+}
+
+.fondoGris
+{
+  background-color: rgb(49, 44, 44) !important;
+}
+
+/* Ahora Estilos de Compra Ticket */
+
+.flexConf /*Del menú centro texto Conferencia sin el logo*/
+{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-size: 1.4em;
+}
+
+.ticketFlex
+{
+  display: flex;
+  justify-content:space-between;
+}
+
+.cajaTicket
+{
+  border-style: solid;
+  border-width: 0.2em;
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 25px;
+  padding: 10px;
+  width: 32.8%;
+  height: 13em;
+}
+
+.ticketEntrada
+{
+  width: 49.5%;
+  /* text-align: right; */
+}
+
+.cajaTotal
+{
+  background-color: #bce4f7;
+  height: 3em;
+  color: rgba(12, 60, 165, 0.986);
+}
